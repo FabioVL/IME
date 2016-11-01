@@ -1,0 +1,23 @@
+Esse arquivo contém informações da barra EF e as diferentes especificações que envolvem cada qual a ser empregada.
+
+Barra 1: 
+Alumínio
+Módulo de Young (em GPa):
+70
+Diâmetro (em mm):
+38
+
+Barra 2: 
+Titânio
+Módulo de Young (em GPa):
+116
+Diâmetro (em mm):
+40
+
+Barra 3: 
+Ferro
+Módulo de Young (em GPa):
+196
+Diâmetro (em mm):
+36
+

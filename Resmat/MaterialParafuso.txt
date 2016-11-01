@@ -1,0 +1,31 @@
+Esse arquivo contém informações dos parafusos e as diferentes especificações que envolvem cada qual a ser empregado.
+
+Parafuso 1:
+Tipo de material: 
+Aço
+Módulo de Young (em GPa): 
+200
+Diâmetro (em mm):
+20
+Passo (em mm):
+2.5
+
+Parafuso 2:
+Tipo de Material: 
+Ferro
+Módulo de Young (em GPa):
+196
+Diâmetro (em mm):
+20
+Passo (em mm):
+1.75
+
+Parafuso 3:
+Tipo de Material: 
+Aço
+Módulo de Young (em GPa):
+207
+Diâmetro (em mm):
+16
+Passo (em mm):
+1.50

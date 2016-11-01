@@ -1,0 +1,8 @@
+Informe o parafuso (1,2,3):
+1
+Escolha a barra EF (1,2,3):
+1
+Informe o comprimento da barra EF e das barras CD e GH, respectivamente (em mm):
+300 460
+
+
