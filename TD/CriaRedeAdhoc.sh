@@ -14,7 +14,7 @@ do
 	esac
 done
 
-if [ "$HELP" ]; then
+if [ $HELP ]; then
 	echo "Uso: `basename $0` -i [ip] -m [netmask] -p [placa] -c [canal] -n [nome da rede] -g [gateway]"
 	exit 0
 fi
@@ -41,8 +41,15 @@ fi
 if [ $PLACA ]; then
 	placa=$PLACA
 else
+	a=1
+	ifconfig | sed "s/ .*$//" | sed "/^$/d" > Interfaces
 	echo "Informe a placa de rede (wlan0,wlan1,wlp2s0...)"
-	read placa
+	for i in `cat Interfaces`; do
+		echo "$a - $i"
+		a=`expr $a + 1`
+	done
+	read nplaca
+	placa=$(sed -n $nplaca' p;' Interfaces)
 fi
 
 if [ $CANAL ]; then
