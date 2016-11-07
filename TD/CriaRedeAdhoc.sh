@@ -43,7 +43,7 @@ if [ $PLACA ]; then
 else
 	a=1
 	ifconfig | sed "s/ .*$//" | sed "/^$/d" > Interfaces
-	echo "Informe a placa de rede (wlan0,wlan1,wlp2s0...)"
+	echo "Informe a placa de rede"
 	for i in `cat Interfaces`; do
 		echo "$a - $i"
 		a=`expr $a + 1`
