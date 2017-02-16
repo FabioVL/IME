@@ -4,12 +4,11 @@ using namespace std;
 int main()
 {
 	// Método bubblesort(?)
-	int a[10000],n,b;
+	int *a,n,b;
 	cout << "Entre com n: " << endl;
 	cin >> n;
-
+	a = (int *) malloc(n* (sizeof(int)));
 	for(int i=0;i<n;i++) scanf("%d",&a[i]);
-
 	for (int i=0;i<n;i++)
 		for (int j=0;j<i;j++)
 		{
@@ -21,5 +20,6 @@ int main()
 			}
 		}
 	for (int i=0;i<n;i++) cout << a[i] << " ";
+	free(a);
 	cout << endl;
 }
