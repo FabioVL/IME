@@ -17,6 +17,7 @@ int main()
 			if (valor%2) soma += valor;
 			else prod *= valor;
 		}
+		free(fp);
 	}	
 	cout << prod << endl << soma << endl;
 
