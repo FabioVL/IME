@@ -27,6 +27,6 @@ int main()
 		if ((notam/contm) > (notaf/contf)) cout << "M " << notam/contm << endl;
 		else if ((notam/contm) < (notaf/contf)) cout << "F " << notaf/contf << endl;
 		else cout << "As medias sao iguais a: " << notam/contm << endl;
+		fclose(fp);
 	}	
-	free(fp);
 }
