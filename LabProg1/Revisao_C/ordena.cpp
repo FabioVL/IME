@@ -27,6 +27,5 @@ int main()
 	for (int i=0;i<n;i++) cout << a[i] << " ";
 	
 	free(a);
-	cout << endl; //a[i] = p[1]
-	// nome = &nome[0] p[i] = p+i 
+	cout << endl;
 }
